@@ -13,7 +13,7 @@ export default [{
   image: require('../../assets/greece.jpeg'),
 }, {
   name: 'California',
-  tagline: 'Bok Online for',
+  tagline: 'Book Online for',
   taglineCTA: 'extra discount',
   image: require('../../assets/california.jpeg'),
 }];
