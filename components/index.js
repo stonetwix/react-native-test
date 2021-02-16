@@ -3,12 +3,12 @@ import { View, Text, ImageBackground } from 'react-native';
 import StyledButton from './StyledButton';
 import styles from './styles';
 
-const CarItem = (props) => {
+const DestinationItem = (props) => {
 
-  const { name, tagline, taglineCTA, image} = props.car;
+  const { name, tagline, taglineCTA, image } = props.destination;
 
     return (
-        <View style={styles.carContainer}>
+        <View style={styles.destinationContainer}>
 
         <ImageBackground source={image} 
         style={styles.image}
@@ -27,15 +27,15 @@ const CarItem = (props) => {
 
         <View style={styles.buttonsContainer}>
           <StyledButton type='primary' 
-            content={'Custom order'} 
+            content={'Book now'} 
             onPress={() => {
-              console.warn('Cusrtom order was pressed')
+              console.warn('Book now was pressed')
             }}/>
 
             <StyledButton type='secondary' 
-              content={'Existing inventory'} 
+              content={'More details'} 
             onPress={() => {
-              console.warn('existing invent was pressed')
+              console.warn('More details was pressed')
             }}/>
         </View>
         
@@ -43,4 +43,4 @@ const CarItem = (props) => {
     );
 };
 
-export default CarItem;
+export default DestinationItem;

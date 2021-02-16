@@ -1,15 +1,15 @@
 import React from 'react';
 import { View, FlatList, Dimensions } from 'react-native';
 import styles from './styles';
-import cars from './cars';
-import CarItem from '../index';
+import destinations from './destinations';
+import DestinationItem from '../index';
 
-const CarsList = (props) => {
+const DestinationList = (props) => {
     return (
         <View style={styles.container}>
             <FlatList 
-                data={cars}
-                renderItem={({item}) => <CarItem car = {item} />}
+                data={destinations}
+                renderItem={({item}) => <DestinationItem destination = {item} />}
                 showsVerticalScrollIndicator={false}
                 snapToAlignment={'start'}
                 decelerationRate={'fast'}
@@ -19,4 +19,4 @@ const CarsList = (props) => {
     );
 };
 
-export default CarsList;
+export default DestinationList;

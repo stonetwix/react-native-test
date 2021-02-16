@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
-    carContainer: {
+    destinationContainer: {
         width: '100%',
         height: Dimensions.get('window').height,
       },
