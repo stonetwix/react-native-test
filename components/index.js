@@ -34,7 +34,7 @@ const DestinationItem = (props) => {
 
             <StyledButton type='secondary' 
               content={'More details'} 
-            onPress={() => {
+              onPress={() => {
               console.warn('More details was pressed')
             }}/>
         </View>

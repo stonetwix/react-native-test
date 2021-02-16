@@ -4,10 +4,10 @@ const styles = StyleSheet.create({
     container: {
         position: 'absolute',
         top: 50,
+        width: '100%',
         zIndex: 100,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        width: '100%',
         paddingHorizontal: 20,
     },
     logo: {

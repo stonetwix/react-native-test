@@ -4,7 +4,7 @@ import styles from './styles';
 import destinations from './destinations';
 import DestinationItem from '../index';
 
-const DestinationList = (props) => {
+const DestinationList = () => {
     return (
         <View style={styles.container}>
             <FlatList 
