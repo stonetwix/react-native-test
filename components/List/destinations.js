@@ -12,6 +12,10 @@ export default [{
   tagline: 'Starting at $600',
   image: require('../../assets/greece.jpeg'),
 }, {
+  name: 'Aruba',
+  tagline: 'Starting at $1100',
+  image: require('../../assets/aruba.jpeg'),
+}, {
   name: 'California',
   tagline: 'Book Online for',
   taglineCTA: 'extra discount',
